@@ -33,7 +33,9 @@ img{
 ul{
   padding: 0;
 }
-
+article h4{
+  font-size: 4rem;
+}
 /**header**/
 .header{
   display: flex;
