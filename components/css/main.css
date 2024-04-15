@@ -1,7 +1,7 @@
 :root{
 
-  --font-serif: "Cormorant Garamond";
-  --font-sans-serif: "Proxima Nova";
+  --font-serif: Cormorant-Garamond, serif;
+  --font-sans-serif: Proxima Nova, sans-serif;
   --black: #000;
   --white: #fff;
   --dark-grey: #333;
