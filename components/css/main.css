@@ -26,8 +26,9 @@ a{
   text-decoration: none;
 }
 img{
-  max-width: fit-content;
+  width: fit-content;
   border: 1px solid black;
+  display: block;
 }
 ul{
   padding: 0;
