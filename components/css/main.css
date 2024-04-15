@@ -1,12 +1,24 @@
-html
+:root{
+
+  --font-serif: "Cormorant Garamond";
+  --font-sans-serif: "Proxima Nova";
+  --black: #000;
+  --white: #fff;
+  --dark-grey: #333;
+  --light-grey: #f7f7f7
+}
 
 
-
-*, *::before, *::after {
-    box-sizing: border-box;
-  }
-
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
 
 body{
-    font-family: serif, sans-serif;
+    font-family: var(--font-sans-serif)
+}
+h1, h2, h2, h4, h5{
+  font-family: var(--font-serif);
 }
