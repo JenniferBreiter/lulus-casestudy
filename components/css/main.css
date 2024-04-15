@@ -22,17 +22,6 @@ body{
 h1, h2, h2, h4, h5{
   font-family: var(--font-serif);
 }
-img{
-  width: auto;
-  border: 1px solid black;
-  display: block;
-}
-a{
-  font-family: var(--font-sans-serif);
-  color: var(--black);
-  text-decoration: none;
-  border-bottom: solid thin black;
-}
 ul{
   padding: 0;
 }
