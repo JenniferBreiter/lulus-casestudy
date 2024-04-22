@@ -41,11 +41,10 @@ p{
 }
 a{
   text-decoration: none;
-  color: var(--white);
+  color: var(--black);
   font-family: 'proxima nova', sans-serif;
-  border-bottom: 1px solid white;
+  border-bottom: 2px solid black;
   font-weight: 700;
-  padding-bottom: 0.5rem;
 }
 img{
   max-width: 100%;
@@ -77,6 +76,8 @@ article h4{
 }
 .switch-link a{
   color: var(--dark-grey);
+  border: none;
+  font-size: small;
 }
 .fa-regular.fa-star{
   margin-right: 0.2rem;
@@ -120,6 +121,7 @@ input::placeholder{
 .icons a{
   margin-left: 1.5rem;
   color: #000;
+  border: none;
 }
 
 /**nav**/
@@ -165,6 +167,8 @@ nav{
   padding: 1rem;
 }
 .hero-text a{
+  color: var(--white);
+  border-bottom: 2px solid white;
   margin: 0;
   padding: 0;
 }
@@ -346,4 +350,21 @@ nav{
   border: #000;
   padding: 4rem 3.3rem;
   border-radius: 100%;
+}
+/**ocassions**/
+.occasions{
+  text-align: center;
+  margin: 2rem 10rem;
+}
+.occasions h2{
+  margin: 0;
+}
+.occasion-categories{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.category img{
+  width: 17rem;
+  border: none;
+  display: inline-block;
 }
