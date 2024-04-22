@@ -17,6 +17,7 @@ body{
   font-family: 'proxima-nova', sans-serif;
   font-family: 'cormorant-garamond', serif;
   margin: 0 3rem;
+  background-color: var(--light-grey);
 }
 h1
 h2
@@ -57,6 +58,10 @@ ul{
 article h4{
   font-size: 4rem;
 }
+.top-nav{
+  background-color: var(--white);
+  padding: 1rem 0;
+}
 /**header**/
 .header{
   display: flex;
@@ -95,6 +100,10 @@ input{
 input::placeholder{
   font-size: 80%;
   color: #aaa;
+}
+.inputs{
+  display: flex;
+  justify-content: space-between;
 }
 .search-bar{
   display: flex;
@@ -137,7 +146,8 @@ nav{
 
 /*hero*/
 .hero-image{
-  width: 100%
+  width: 100%;
+  border: none;
 }
 .hero{
   position: relative;
@@ -188,6 +198,7 @@ nav{
 }
 .guest-categories img{
   width: 23rem;
+  border: none;
 }
 .spring{
   position: relative;
@@ -245,4 +256,9 @@ nav{
   font-size: 200%;
   font-weight: 400;
   margin: 0;
+}
+
+/**bridemaids**/
+.bridesmaid img{
+  width: 33rem;
 }
