@@ -61,6 +61,7 @@ article h4{
 .top-nav{
   background-color: var(--white);
   padding: 1rem 0;
+  margin: 2rem 0;
 }
 /**header**/
 .header{
@@ -153,6 +154,7 @@ nav{
   position: relative;
   text-align: center;
   color: #fff;
+  margin: 2rem 0;
 }
 .hero-text{
   position: absolute;
@@ -173,7 +175,9 @@ nav{
 
 /**guests**/
 .guest{
-  margin: 1rem 9rem;
+  margin: 2rem 7rem;
+  padding: 2rem;
+  background-color: var(--white);
 }
 .guest h2{
   padding: 0;
@@ -259,6 +263,87 @@ nav{
 }
 
 /**bridemaids**/
+.bridesmaid{
+  display: flex;
+  align-items: center;
+  margin-top: 2rem;
+  background-color: var(--white);
+}
 .bridesmaid img{
   width: 33rem;
+  border: none;
+}
+.bridesmaid-shop{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 50rem;
+  padding: 0 7rem;
+}
+.bridesmaid-shop a{
+  color: var(--black);
+  border-bottom: 2px solid black;
+  padding-bottom: 0;
+  margin-bottom: 3rem;
+}
+.bridesmaid-shop h2{
+  margin: 2rem 0 1rem 0;
+}
+.bridesmaid-shop img{
+  width: 41rem;
+  border: none;
+}
+.bridesmaid-shop p{
+  text-align: center;
+  padding: 3rem 6rem;
+}
+.bridesmaid-color{
+  text-align: center;
+  background-color: var(--white);
+  padding: 2rem;
+}
+.bridesmaid-color h3{
+  font-size: 250%;
+  font-weight: 400;
+}
+.colors{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 14rem;
+}
+.black{
+  background-color: #000;
+  color: #fff;
+  border: #000;
+  padding: 4rem 3.3rem;
+  border-radius: 100%;
+}
+.green{
+  background-color: #aab899;
+  color: #fff;
+  border: #000;
+  padding: 4rem 3.2rem;
+  border-radius: 100%;
+}
+.blue{
+  background-color: #b5c9cf;
+  color: #fff;
+  border: #000;
+  padding: 4rem 3.5rem;
+  border-radius: 100%;
+}
+.pink{
+  background-color: #dba29a;
+  color: #fff;
+  border: #000;
+  padding: 4rem 3.5rem;
+  border-radius: 100%;
+}
+.floral{
+  background-color: #000;
+  color: #fff;
+  border: #000;
+  padding: 4rem 3.3rem;
+  border-radius: 100%;
 }
