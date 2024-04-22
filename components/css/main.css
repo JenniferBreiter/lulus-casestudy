@@ -16,6 +16,7 @@ html {
 body{
   font-family: 'proxima-nova', sans-serif;
   font-family: 'cormorant-garamond', serif;
+  margin: 0 3rem;
 }
 h1
 h2
@@ -26,12 +27,21 @@ h5{
 }
 h1{
   font-size: 500%;
+  font-weight: 400;
+}
+h2{
+  font-size: 450%;
+  font-weight: 400;
+}
+p{
+  font-family: 'proxima nova', sans-serif;
+  font-size: 120%;
   font-weight: 500;
 }
-
 a{
   text-decoration: none;
   color: var(--white);
+  font-family: 'proxima nova', sans-serif;
   border-bottom: 1px solid white;
   font-weight: 700;
   padding-bottom: 0.5rem;
@@ -59,8 +69,12 @@ article h4{
   font-size: 90%;
   padding-right: 237px;
 }
+.switch-link a{
+  color: var(--dark-grey);
+}
 .fa-regular.fa-star{
   margin-right: 0.2rem;
+  color: var(--dark-grey);
 }
 .fa-solid.fa-magnifying-glass:hover{
   color: #ddd;
@@ -95,6 +109,7 @@ input::placeholder{
 }
 .icons a{
   margin-left: 1.5rem;
+  color: #000;
 }
 
 /**nav**/
@@ -148,7 +163,28 @@ nav{
 
 /**guests**/
 .guest{
-  margin: 0, 2rem, 0, 2rem;
+  margin: 1rem 9rem;
+}
+.guest h2{
+  padding: 0;
+  margin: 0;
+}
+.guest-text{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 3rem;
+  margin: 0;
+}
+.guest-text a{
+  color: var(--black);
+  border-bottom: 2px solid black;
+  padding-bottom: 0;
+}
+.guest-categories{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 .guest-categories img{
   width: 23rem;
@@ -168,4 +204,45 @@ nav{
   left: 50%;
   transform: translate(-50%, -50%);
   color: var(--white);
+  font-size: 200%;
+  font-weight: 400;
+  margin: 0;
+}
+.cocktail{
+  position: relative;
+  text-align: center;
+}
+.cocktail img{
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+.cocktail h3{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: var(--white);
+  font-size: 200%;
+  font-weight: 400;
+  margin: 0;
+}
+.black-tie{
+  position: relative;
+  text-align: center;
+}
+.black-tie img{
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+.black-tie h3{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: var(--white);
+  font-size: 200%;
+  font-weight: 400;
+  margin: 0;
 }
