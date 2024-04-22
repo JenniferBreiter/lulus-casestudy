@@ -3,7 +3,7 @@
   --black: #000;
   --white: #fff;
   --dark-grey: #333333;
-  --light-grey: #f7f7f7
+  --light-grey: #f7f7f7;
 } 
 @import url("https://use.typekit.net/ocw0loq.css");
 
@@ -208,6 +208,9 @@ nav{
   width: 23rem;
   border: none;
 }
+.guest-categories a{
+  border: none;
+}
 .spring{
   position: relative;
   text-align: center;
@@ -355,16 +358,43 @@ nav{
 .occasions{
   text-align: center;
   margin: 2rem 10rem;
+  background-color: var(--white);
+  padding: 3rem;
+  margin: 2rem;
 }
 .occasions h2{
   margin: 0;
 }
+.occasions p{
+  margin: 1rem 0 4rem 0;
+}
+.category{
+  border: none;
+  display: inline-block;
+  position: relative;
+}
+.category img{
+  border: none;
+}
+.category-a{
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.category-a a{
+  color: var(--white);
+  border-color: var(--white);
+  text-shadow: -.25px .25px .25px #ccc,
+				  .25px .25px .25px #ccc,
+				  0.25px -0.25px 0 #ccc,
+				  -0.25px -0.25px 0 #ccc;
+}
 .occasion-categories{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 1rem;
+  justify-items: center;
 }
-.category img{
-  width: 17rem;
-  border: none;
-  display: inline-block;
-}
+
+/**accesories**/
