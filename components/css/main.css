@@ -1,13 +1,11 @@
 :root{
 
-  --font-serif: Cormorant-Garamond, serif;
-  --font-sans-serif: Proxima Nova, sans-serif;
   --black: #000;
   --white: #fff;
-  --dark-grey: #333;
+  --dark-grey: #333333;
   --light-grey: #f7f7f7
-}
-
+} 
+@import url("https://use.typekit.net/ocw0loq.css");
 
 html {
   box-sizing: border-box;
@@ -15,17 +13,22 @@ html {
 *, *:before, *:after {
   box-sizing: inherit;
 }
-
 body{
-    font-family: var(--font-sans-serif)
+  font-family: 'proxima-nova', sans-serif;
+  font-family: 'cormorant-garamond', serif;
 }
-h1, h2, h2, h4, h5{
-  font-family: var(--font-serif);
+h1
+h2
+h3
+h4
+h5{
+  font-family: 'cormorant-garamond', serif;
 }
 h1{
   font-size: 500%;
   font-weight: 500;
 }
+
 a{
   text-decoration: none;
   color: var(--white);
@@ -144,3 +147,25 @@ nav{
 }
 
 /**guests**/
+.guest{
+  margin: 0, 2rem, 0, 2rem;
+}
+.guest-categories img{
+  width: 23rem;
+}
+.spring{
+  position: relative;
+  text-align: center;
+}
+.spring img{
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+.spring h3{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: var(--white);
+}
