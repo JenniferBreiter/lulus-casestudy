@@ -397,4 +397,69 @@ nav{
   justify-items: center;
 }
 
-/**accesories**/
+/**accessories**/
+.accessories-img{
+  width: 53rem;
+  position: relative;
+}
+.accessories-img img{
+  border: none;
+}
+.accessories-header{
+  color: var(--white);
+  position: absolute;
+  top: 15%;
+  left: 10%;
+  text-shadow: -.25px .25px .25px #bbb,
+				  .25px .25px .25px #bbb,
+				  0.25px -0.25px 0 #bbb,
+				  -0.25px -0.25px 0 #bbb;
+}
+.accessories-link{
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.accessories-link a{
+  color: #fff;
+  border-color: #fff
+}
+.accessories-shoes img{
+  width: 20rem;
+  padding: 0;
+  border: none;
+}
+.accessories-shoes{
+  position: relative;
+  padding: 0;
+  width: 20rem;
+}
+.accessories-shop img{
+  width: 20rem;
+  padding: 0;
+  border: none;
+}
+.accessories-shop{
+  position: relative;
+  padding: 0;
+  width: 20rem;
+}
+.accessories-pair{
+  display: flex;
+  justify-content: space-between;
+  width: 41rem;
+  position: absolute;
+  left: 50%;
+}
+.accessories{
+  background-color: var(--white);
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  margin: 2rem 0;
+}
+
+
