@@ -38,6 +38,11 @@ h2{
 h3{
   font-weight:700;
   font-size: 250%;
+  color: #b5c9cf;
+}
+h5{
+  font-family: 'proxima nova', sans-serif;
+  font-size: 140%;
 }
 h6{
   font-family: 'proxima nova', sans-serif;
@@ -66,6 +71,23 @@ ul{
 }
 article h4{
   font-size: 4rem;
+}
+/**typographic defaults**/
+.body{
+  font-size: 145%;
+}
+.mainheading{
+  margin: 1rem;
+  font-size: 700%
+}
+.mainlink{
+  margin: 2rem 0;
+}
+.mainlink a{
+  font-size: 120%;
+}
+.page-title{
+  color: var(--dark-grey);
 }
 .top-nav{
   background-color: var(--white);
@@ -323,6 +345,7 @@ nav{
 .bridesmaid-color h3{
   font-size: 250%;
   font-weight: 400;
+  color: #000;
 }
 .colors{
   display: flex;
