@@ -4,6 +4,7 @@
   --white: #fff;
   --dark-grey: #333333;
   --light-grey: #f7f7f7;
+  --medium-grey: #666;
 } 
 @import url("https://use.typekit.net/ocw0loq.css");
 
@@ -37,6 +38,11 @@ h2{
 h3{
   font-weight:700;
   font-size: 250%;
+}
+h6{
+  font-family: 'proxima nova', sans-serif;
+  font-size: 80%;
+  color: #666;
 }
 p{
   font-family: 'proxima nova', sans-serif;
@@ -312,6 +318,7 @@ nav{
   text-align: center;
   background-color: var(--white);
   padding: 2rem;
+  margin-bottom: 2rem;
 }
 .bridesmaid-color h3{
   font-size: 250%;
@@ -492,9 +499,128 @@ nav{
   font-size: 90%;
 }
 
-
-
+/**footer**/
+.footer-info{
+  background-color: var(--white);
+  padding-bottom: 2rem;
+  margin-bottom: 4rem;
+}
+.footer-links{
+  display: flex;
+  justify-content:space-between;
+  margin: 0 12rem 0 14rem;
+}
+.newsletter{
+  width: 20rem;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+.newsletter h6{
+  margin:3rem 0 1rem 0;
+}
+.newsletter p{
+  font-size: 60%;
+  color: var(--medium-grey);
+  line-height: 160%;
+  margin: 1rem 0 2rem 0;
+}
+.newsletter p a{
+  color: var(--medium-grey);
+  border: none;
+  text-decoration: underline;
+}
+.newsletter-input{
+  border-bottom: 2px solid var(--light-grey);
+}
+.newsletter-input input{
+  border: none;
+  background-color: transparent;
+  font-size: 100%;
+  padding-right: 6.5rem;
+  margin-bottom: 1rem;
+}
+.socials{
+  display: flex;
+  justify-content: space-between;
+  width: 13rem;
+}
+/**/
+.footer-nav{
+  display: flex;
+  justify-content: space-around;
+  align-items:start;
+  gap: 2rem;
+  margin-top:1rem;
+  padding: 0;
+}
+.footer-nav li{
+  list-style: none;
+  line-height: 200%;
+}
+.footer-nav li a{
+  color: var(--medium-grey);
+  border: none;
+  font-size: 80%;
+  font-weight: 500;
+}
+/**/
+.terms{
+  margin: 0 14rem;
+}
+.terms li{
+  list-style: none;
+}
+.terms-list{
+  display: flex;
+  justify-content: space-between;
+  width: 42rem;
+}
+.terms a{
+  border: none;
+  color: var(--medium-grey);
+  font-weight: 500;
+  font-size: 60%;
+}
+.copyright{
+  margin: 0 14rem;
+  color: var(--medium-grey);
+  font-size: 60%;
+}
+.fa-regular.fa-comment{
+  color: var(--white);
+  background-color: var(--black);
+  padding: 1rem;
+  border-radius: 100%;
+  font-size: 200%;
+  position:sticky;
+  left: 92%;
+}
 /**sections**/
+.section-type_defaults{
+  border-top: 3px dotted var(--dark-grey);
+}
+.section-link_style{
+  border-top: 3px dotted var(--dark-grey);
+}
+.section-header{
+  border-top: 3px dotted var(--dark-grey);
+}
+.section-hero{
+  border-top: 3px dotted var(--dark-grey);
+}
+.section-guest{
+  border-top: 3px dotted var(--dark-grey);
+}
+.section-bridesmaid{
+  border-top: 3px dotted var(--dark-grey);
+}
+.section-occasion{
+  border-top: 3px dotted var(--dark-grey);
+}
+.section-accessories{
+  border-top: 3px dotted var(--dark-grey);
+}
 .footer{
   border-top: 3px dotted var(--dark-grey);
 }

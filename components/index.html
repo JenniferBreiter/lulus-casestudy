@@ -10,8 +10,8 @@
     <script src="https://kit.fontawesome.com/60c4235413.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <h2>Lulu's Web Components</h1>
-    <section>
+    <h2>Lulu's Webpage Components</h1>
+    <section class="section-type_defaults">
         <h3>Typography Defaults</h3>
             <article class="component-body">
                 <h5>Body</h5>
@@ -29,7 +29,7 @@
                 <h1>Here Comes the Bride</h1>
             </article>
     </section>
-    <section>
+    <section class="section-link_style">
         <h3>Link Style</h3>
             <article class="component-link">
                 <img src="images/link.png">
@@ -38,7 +38,7 @@
                 <a href="#">Shop Bridal Dresses</a>
             </article>
     </section>
-    <section>
+    <section class="section-header">
         <h3>Header</h3>
         <article class="component-header">
             <img src="images/header.png">
@@ -93,6 +93,7 @@
             </div>
             <img class="hero-image" src="images/bride2.jpg" alt="bride by a port">
         </article>
+        <!--<i class="fa-regular fa-comment"></i> USE LATER-->
     <section>
 
     <section class="section-guest">
@@ -250,70 +251,86 @@
                 <p>By signing up via text, you agree to receive recurring automated promotional and personalized marketing text messages (e.g. cart reminders) from Lulus at the cell number used when signing up. Consent is not a condition of any purchases. Reply HELP for help and STOP to cancel. Msg frequency varies. Msg & data rates may apply. <a href="#">View Terms</a> & <a href="#">Privacy</a>.</p>
                 <p class="promo-text">Text 'LULUS' to 54858</p>
             </article>
-            <article>
-                <h6>Get Rewarded just for shopping!</h6>
-                <input type="text" placeholder="Enter email for newsletter signup">
-                <p>By entering my email above and submitting this form, I agree I am signing up to receive Lulus promotional emails. I confirm that I have read and agree to Lulus' <a href="#">Privacy Policy</a> and <a href="#">Financial Incentive Notice</a> (as applicable). New subscribers will receive 15% off a future order. Unsubscribe at any time <a href="#">here</a>.</p>
+            <article class="footer-info">
+                <div class="footer-links">
+                    <article class="newsletter">
+                        <h6>Get Rewarded just for shopping!</h6>
+                        <div class="newsletter-input">
+                            <input type="text" placeholder="Enter email for newsletter signup"><i class="fa-solid fa-arrow-right"></i>
+                        </div>
+                        <p>By entering my email above and submitting this form, I agree I am signing up to receive Lulus promotional emails. I confirm that I have read and agree to Lulus' <a href="#">Privacy Policy</a> and <a href="#">Financial Incentive Notice</a> (as applicable). New subscribers will receive 15% off a future order. Unsubscribe at any time <a href="#">here</a>.</p>
+                        <div class="socials">
+                            <i class="fa-brands fa-instagram"></i>
+                            <i class="fa-brands fa-pinterest-p"></i>
+                            <i class="fa-brands fa-facebook-f"></i>
+                            <i class="fa-brands fa-twitter"></i>
+                            <i class="fa-brands fa-youtube"></i>
+                            <i class="fa-brands fa-tiktok"></i>
+                        </div>
+                    </article>
+                    <article class="footer-nav">
+                        <div class="quick-links">
+                            <h6>Quick Links</h6>
+                            <ul>
+                                <li><a href="#">View Account</a></li>
+                                <li><a href="#">Track Your Order</a></li>
+                                <li><a href="#">Initiate Return/Exchange</a></li>
+                                <li><a href="#">Gift Cards</a></li>
+                                <li><a href="#">Promotions</a></li>
+                                <li><a href="#">Customer Reviews</a></li>
+                            </ul>
+                        </div>
+                        <div class="customer-care">
+                            <h6>Customer Care</h6>
+                            <ul>
+                                <li><a href="#">Help Center</a></li>
+                                <li><a href="#">Guest Order Lookup</a></li>
+                                <li><a href="#"> Return/Exchange Policy</a></li>
+                                <li><a href="#">Shipping Policy</a></li>
+                                <li><a href="#">Promo Terms</a></li>
+                                <li><a href="#">Giveaways</a></li>
+                                <li><a href="#">International Orders</a></li>
+                            </ul>
+                        </div>
+                        <div class="services">
+                            <h6>Services</h6>
+                            <ul>
+                                <li><a href="#">Mobile App</a></li>
+                                <li><a href="#">Student Discount</a></li>
+                                <li><a href="#"> Healthcare Discount</a></li>
+                                <li><a href="#">Military Discount</a></li>
+                                <li><a href="#">Love Rewards</a></li>
+                                <li><a href="#">Bridal Concierge</a></li>
+                                <li><a href="#">Give $20, Get $20</a></li>
+                            </ul>
+                        </div>
+                        <div class="about">
+                            <h6>About</h6>
+                            <ul>
+                                <li><a href="#">Our Story</a></li>
+                                <li><a href="#">Careers</a></li>
+                                <li><a href="#"> Our Blog</a></li>
+                                <li><a href="#">Investors</a></li>
+                                <li><a href="#">Wholesale</a></li>
+                                <li><a href="#">Lulus on Melrose</a></li>
+                            </ul>
+                        </div>
+                    </article>
+                </div>
+                <div class="terms">
+                    <ul class="terms-list">
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Financial Incentive Notice</a></li>
+                        <li><a href="#">CA Supply Chains</a></li>
+                        <li><a href="#">Do Not Sell of Share My Personal Info</a></li>
+                        <li><a href="#">Site Map</a></li>
+                    </ul>
+                </div>
+                <p class="copyright">&copy;2024 Lulu's Fashion Lounge, LLC</p>
+                <i class="fa-regular fa-comment"></i>
             </article>
-            <article class="footer-nav">
-                <div class="quick-links">
-                    <h6>Quick Links</h6>
-                    <ul>
-                        <li><a href="#">View Account</a></li>
-                        <li><a href="#">Track Your Order</a></li>
-                        <li><a href="#">Initiate Return/Exchange</a></li>
-                        <li><a href="#">Gift Cards</a></li>
-                        <li><a href="#">Promotions</a></li>
-                        <li><a href="#">Customer Reviews</a></li>
-                    </ul>
-                </div>
-                <div class="customer-care">
-                    <h6>Customer Care</h6>
-                    <ul>
-                        <li><a href="#">Help Center</a></li>
-                        <li><a href="#">Guest Order Lookup</a></li>
-                        <li><a href="#"> Return/Exchange Policy</a></li>
-                        <li><a href="#">Shipping Policy</a></li>
-                        <li><a href="#">Promo Terms</a></li>
-                        <li><a href="#">Giveaways</a></li>
-                        <li><a href="#">International Orders</a></li>
-                    </ul>
-                </div>
-                <div class="services">
-                    <h6>Services</h6>
-                    <ul>
-                        <li><a href="#">Mobile App</a></li>
-                        <li><a href="#">Student Discount</a></li>
-                        <li><a href="#"> Healthcare Discount</a></li>
-                        <li><a href="#">Military Discount</a></li>
-                        <li><a href="#">Love Rewards</a></li>
-                        <li><a href="#">Bridal Concierge</a></li>
-                        <li><a href="#">Give $20, Get $20</a></li>
-                    </ul>
-                </div>
-                <div class="about">
-                    <h6>About</h6>
-                    <ul>
-                        <li><a href="#">Our Story</a></li>
-                        <li><a href="#">Careers</a></li>
-                        <li><a href="#"> Our Blog</a></li>
-                        <li><a href="#">Investors</a></li>
-                        <li><a href="#">Wholesale</a></li>
-                        <li><a href="#">Lulus on Melrose</a></li>
-                    </ul>
-                </div>
-            </article>
-            <article class="terms">
-                <ul>
-                    <li><a href="#">Terms of Service</a></li>
-                    <li><a href="#">Privacy Policy</a></li>
-                    <li><a href="#">Financial Incentive Notice</a></li>
-                    <li><a href="#">CA Supply Chains</a></li>
-                    <li><a href="#">Do Not Sell of Share My Personal Info</a></li>
-                    <li><a href="#">Site Map</a></li>
-                </ul>
-            </article>
-            <p>&copy;2024 Lulu's Fashion Lounge, LLC</p>
+             
     </section>
 
 
