@@ -88,6 +88,7 @@ article h4{
 }
 .page-title{
   color: var(--dark-grey);
+  font-weight: 800;
 }
 .top-nav{
   background-color: var(--white);
@@ -172,6 +173,7 @@ nav{
 .navbar__categories a{
   text-decoration: none;
   color: black;
+  font-weight: 500;
   border: transparent;
   padding-bottom: 1rem;
 }
@@ -382,8 +384,9 @@ nav{
   border-radius: 100%;
 }
 .floral{
-  background-color: #000;
-  color: #fff;
+  background-image: url("../images/floralpattern.jpg");
+  background-repeat: no-repeat;
+  color: #000;
   border: #000;
   padding: 4rem 3.3rem;
   border-radius: 100%;
@@ -620,30 +623,6 @@ nav{
   left: 92%;
 }
 /**sections**/
-.section-type_defaults{
-  border-top: 3px dotted var(--dark-grey);
-}
-.section-link_style{
-  border-top: 3px dotted var(--dark-grey);
-}
-.section-header{
-  border-top: 3px dotted var(--dark-grey);
-}
-.section-hero{
-  border-top: 3px dotted var(--dark-grey);
-}
-.section-guest{
-  border-top: 3px dotted var(--dark-grey);
-}
-.section-bridesmaid{
-  border-top: 3px dotted var(--dark-grey);
-}
-.section-occasion{
-  border-top: 3px dotted var(--dark-grey);
-}
-.section-accessories{
-  border-top: 3px dotted var(--dark-grey);
-}
-.footer{
+.section{
   border-top: 3px dotted var(--dark-grey);
 }
