@@ -34,6 +34,10 @@ h2{
   font-size: 450%;
   font-weight: 400;
 }
+h3{
+  font-weight:700;
+  font-size: 250%;
+}
 p{
   font-family: 'proxima nova', sans-serif;
   font-size: 120%;
@@ -461,5 +465,36 @@ nav{
   padding: 1rem;
   margin: 2rem 0;
 }
+/**pormotional**/
+.promotion{
+  background-color: var(--dark-grey);
+  text-align: center;
+  padding: 1rem 17rem;
+  margin-top: 2rem;
+}
+.promotion h5{
+  font-family: 'proxima nova', sans-serif;
+  font-size: 120%;
+  font-weight: 400;
+  color: var(--white);
+  margin: 1rem 0;
+}
+.promotion p{
+  color: var(--white);
+  font-size: 60%;
+}
+.promotion a{
+  color: var(--white);
+  border: none;
+  text-decoration: underline;
+}
+.promotion .promo-text{
+  font-size: 90%;
+}
 
 
+
+/**sections**/
+.footer{
+  border-top: 3px dotted var(--dark-grey);
+}
