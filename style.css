@@ -366,7 +366,7 @@
     border-radius: 100%;
   }
   .floral{
-    background-image: url("../images/floralpattern.jpg");
+    background-image: url("Components/images/floralpattern.jpg");
     background-repeat: no-repeat;
     color: #000;
     border: #000;
@@ -516,7 +516,7 @@
   .footer-links{
     display: flex;
     justify-content:space-between;
-    margin: 0 12rem 0 14rem;
+    margin: 0;
   }
   .newsletter{
     width: 20rem;
@@ -574,7 +574,7 @@
   }
   /**/
   .terms{
-    margin: 0 14rem;
+    margin: 0;
   }
   .terms li{
     list-style: none;
@@ -591,7 +591,7 @@
     font-size: 60%;
   }
   .copyright{
-    margin: 0 14rem;
+    margin: 0;
     color: var(--medium-grey);
     font-size: 60%;
   }
