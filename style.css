@@ -17,8 +17,8 @@
   body{
     font-family: 'proxima-nova', sans-serif;
     font-family: 'cormorant-garamond', serif;
-    margin: 0 3rem;
-    background-color: var(--light-grey);
+    margin: 0 auto;
+    background-color: var(--white);
   }
   h1
   h2
