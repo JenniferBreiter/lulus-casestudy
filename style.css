@@ -71,17 +71,17 @@
   article h4{
     font-size: 4rem;
   }
-  
-  .top-nav{
+ 
+  /**header**/
+   .top-nav{
     background-color: var(--white);
     padding: 1rem 0;
-    margin: 2rem 0;
+    margin: .25rem 0;
   }
-  /**header**/
   .header{
     display: flex;
     flex-direction: row;
-    margin: 0;
+    margin: 0 4rem 1rem 4rem;
     justify-content:space-between;
     align-items: center;
   }
@@ -195,7 +195,7 @@
   
   /**guests**/
   .guest{
-    margin: 0;
+    margin: 0 10rem;
     padding: 2rem;
     background-color: var(--white);
   }
@@ -511,7 +511,7 @@
   .footer-info{
     background-color: var(--white);
     padding-bottom: 2rem;
-    margin-bottom: 4rem;
+    margin: 0 15rem;
   }
   .footer-links{
     display: flex;
@@ -605,4 +605,13 @@
     left: 92%;
   }
   /**sections**/
+  .section{
+    margin: 5rem 0;
+  }
+  .section-hero{
+    margin-top: 0;
+  }
+  .section-footer{
+    margin-bottom: 1rem;
+  }
   
