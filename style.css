@@ -551,14 +551,12 @@
     padding-right: 6.5rem;
     margin-bottom: 1rem;
   }
-  .fa-solid .fa-arrow-right a{
-    text-decoration: none;
-  }
   .socials{
     display: flex;
     justify-content: space-between;
     width: 13rem;
   }
+
   /**/
   .footer-nav{
     display: flex;
