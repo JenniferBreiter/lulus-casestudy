@@ -133,6 +133,9 @@
     flex-direction: row;
     justify-content: space-between;
   }
+  .flag{
+    width: 1rem;
+  }
   .icons a{
     margin-left: 1.5rem;
     color: #000;
@@ -547,6 +550,9 @@
     font-size: 100%;
     padding-right: 6.5rem;
     margin-bottom: 1rem;
+  }
+  .fa-solid .fa-arrow-right a{
+    text-decoration: none;
   }
   .socials{
     display: flex;
