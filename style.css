@@ -60,6 +60,7 @@
     font-family: 'proxima nova', sans-serif;
     border-bottom: 2px solid black;
     font-weight: 700;
+    cursor: pointer;
   }
   img{
     max-width: 100%;
